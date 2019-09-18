@@ -27,13 +27,18 @@ public class CmrInfoActivity extends AppCompatActivity {
         webs.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent bint=new Intent(Intent.ACTION_VIEW, Uri.parse(website));
-                startActivity(bint);
+
+                if (website.compareTo("http://cmrit.ac.in/") == 0 || website.compareTo("http://cmr.edu.in/") == 0 || website.compareTo("http://ims.cmr.ac.in/") == 0 ||
+                        website.compareTo("http://ls.cmr.ac.in/") == 0 || website.compareTo("http://www.cmr.ac.in/lifeskills/") == 0 || website.compareTo("http://cmrcbs.cmr.ac.in/") == 0 ||
+                        website.compareTo("http://www.ekyaschools.com/itpl") == 0 || website.compareTo("http://www.ekyaschools.com/jpnagar/") == 0 || website.compareTo("http://www.ekyaschools.com/btm/") == 0 ||
+                        website.compareTo("http://npuc.cmr.ac.in/") == 0 || website.compareTo("http://nps.cmr.ac.in/") == 0 || website.compareTo("http://www.npsinternational.com.sg/") == 0) {
+                    Intent bint = new Intent(Intent.ACTION_VIEW, Uri.parse(website));
+                    startActivity(bint);
+
+                }
             }
         });
 
     }
-
-
 
 }

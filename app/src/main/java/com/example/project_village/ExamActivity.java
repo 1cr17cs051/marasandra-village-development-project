@@ -28,8 +28,8 @@ public class ExamActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(ExamActivity.this,ExamInfoActivity.class);
-                intent.putExtra("information","ಕೆ.ಸಿ.ಇ.ಟಿ: \n" );
-                intent.putExtra("website"," https://cetonline.karnataka.gov.in/kea/");
+                intent.putExtra("information","ಕೆ.ಸಿ.ಇ.ಟಿ: " );
+                intent.putExtra("website","https://cetonline.karnataka.gov.in/kea/indexnew");
                 startActivity(intent);
             }
         });
@@ -37,8 +37,8 @@ public class ExamActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(ExamActivity.this,ExamInfoActivity.class);
-                intent.putExtra("information","ಜೆ.ಇ.ಇ ಮುಖ್ಯ:\n" );
-                intent.putExtra("website","https://jeemain.nic.in/");
+                intent.putExtra("information","ಜೆ.ಇ.ಇ ಮುಖ್ಯ:" );
+                intent.putExtra("website","http://jeemain.nic.in/");
                 startActivity(intent);
             }
         });
@@ -46,8 +46,8 @@ public class ExamActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(ExamActivity.this,ExamInfoActivity.class);
-                intent.putExtra("information","ಜೆ.ಇ.ಇ ಸುಧಾರಿತ:\n" );
-                intent.putExtra("website","https://jeeadv.ac.in/");
+                intent.putExtra("information","ಜೆ.ಇ.ಇ ಸುಧಾರಿತ:" );
+                intent.putExtra("website","http://jeeadv.ac.in/");
                 startActivity(intent);
             }
         });
@@ -56,8 +56,8 @@ public class ExamActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(ExamActivity.this,ExamInfoActivity.class);
-                intent.putExtra("information","ನೀಟ್:\n" );
-                intent.putExtra("website","https://ntaneet.nic.in/Ntaneet/Welcome.aspx");
+                intent.putExtra("information","ನೀಟ್:" );
+                intent.putExtra("website","http://ntaneet.nic.in/Ntaneet/Welcome.aspx");
                 startActivity(intent);
             }
         });

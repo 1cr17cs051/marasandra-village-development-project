@@ -92,19 +92,20 @@
     <string name="neet">ನೀಟ್:</string>
     <string name="neetlink">https://ntaneet.nic.in/Ntaneet/Welcome.aspx</string>
 
-    <string name="pu1_address">asdfgh</string>
-    <string name="pu1_website">asdf</string>
-    <string name="pu1_phone">741852</string>
+    <string name="pu1_address">Virgonagar Post,Mandur,Bengaluru,Karnataka 560049</string>
+    <string name="pu1_website">http://www.narayanaetechnoschools.com/marathahalli</string>
+    <string name="pu1_phone">08028470681</string>
 
-    <string name="pu2_address">wesdrfgthbjnk.</string>
-    <string name="pu2_website">asdfghjk</string>
-    <string name="pu2_phone">741852</string>
+    <string name="pu2_address">Thambu Cheety Palya,Battarahalli,Bengaluru,Karnataka 560049,</string>
+    <string name="pu2_website">http://puc.gardencitycollege.edu</string>
+    <string name="pu2_phone">8066487600</string>
 
-    <string name="epc_address">asdfgh</string>
-    <string name="epc_website">asdf</string>
-    <string name="epc_phone">741852</string>
+    <string name="epc_address">No 147,Virgonagar Post,Bidharhalli,Cheemasandra,Bengaluru,Karnataka 560049</string>
+    <string name="epc_website">https://www.eastpoint.ac.in</string>
+    <string name="epc_phone">7204229999</string>
 
-    <string name="poly_address">wesdrfgthbjnk.</string>
-    <string name="poly_website">asdfghjk</string>
-    <string name="poly_phone">741852</string>
+    <string name="poly_address">Bengaluru,Karnataka 560049</string>
+    <string name="poly_website">http://www.tespolytechnic.com/</string>
+    <string name="poly_phone">9900008481</string>
+    <string name = "no_website"></string>
 </resources>

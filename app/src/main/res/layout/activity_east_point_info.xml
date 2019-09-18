@@ -20,7 +20,7 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:textColor="#000"
+            android:textColor="@color/fav"
             android:layout_marginLeft="5dp"
             android:textSize="20dp"
             android:id="@+id/activity_east_point_address"/>

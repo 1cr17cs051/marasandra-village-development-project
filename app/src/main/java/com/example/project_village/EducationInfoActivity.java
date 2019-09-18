@@ -3,6 +3,7 @@ package com.example.project_village;
 import android.content.Context;
 import android.content.Intent;
 import android.net.Uri;
+import android.support.annotation.StringRes;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.text.TextUtils;
@@ -11,6 +12,7 @@ import android.widget.Button;
 import android.widget.TextView;
 import android.widget.Toast;
 
+
 public class EducationInfoActivity extends AppCompatActivity {
 
     TextView schooladdresstag;
@@ -18,6 +20,7 @@ public class EducationInfoActivity extends AppCompatActivity {
     TextView schoolwebsitetag;
     TextView schoolwebsite;
     Button Schoolcall;
+    String no_web = "ಮಾಹಿತಿ ಇಲ್ಲ";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -58,10 +61,14 @@ public class EducationInfoActivity extends AppCompatActivity {
         schoolwebsite.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent bint=new Intent(Intent.ACTION_VIEW, Uri.parse(prewebsite));
-                startActivity(bint);
+               if(prewebsite.compareTo("http://www.tespolytechnic.com/")==0||prewebsite.compareTo("https://www.eastpoint.ac.in")==0|| prewebsite.compareTo("http://puc.gardencitycollege.edu")==0||
+               prewebsite.compareTo("http://www.narayanaetechnoschools.com/marathahalli")==0||prewebsite.compareTo("https://www.timekidspreschools.in")==0){
+                   Intent intent = new Intent(Intent.ACTION_VIEW,Uri.parse(prewebsite));
+                   startActivity(intent);
+               }
             }
         });
+
 
     }
 }

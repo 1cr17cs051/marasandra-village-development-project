@@ -134,17 +134,6 @@
             android:textColor="#fff"
             />
         <Button
-            android:id="@+id/activity_cmr_high_school"
-            android:layout_marginTop="20dp"
-            android:layout_width="match_parent"
-            android:layout_marginLeft="5dp"
-            android:layout_marginRight="5dp"
-            android:layout_height="wrap_content"
-            android:background="@drawable/cmrrectangle"
-            android:text="ಸಿಎಂಆರ್ ಪ್ರೌಢಶಾಲೆ"
-            android:textColor="#fff"
-        />
-        <Button
             android:id="@+id/activity_cmr_pu_colledge"
             android:layout_marginTop="20dp"
             android:layout_marginLeft="5dp"
@@ -155,11 +144,23 @@
             android:text="ಸಿಎಂಆರ್ ರಾಷ್ಟ್ರೀಯ ಪಿಯು ಕಾಲೇಜು"
             android:textColor="#fff"
             />
+        <Button
+            android:id="@+id/activity_cmr_high_school"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/cmrrectangle"
+            android:text="ಸಿಎಂಆರ್ ಪ್ರೌಢಶಾಲೆ"
+            android:textColor="#fff"
+            />
 
         <Button
             android:id="@+id/activity_cmr_national_public_school"
             android:layout_marginTop="20dp"
             android:layout_width="match_parent"
+            android:background="@drawable/cmrrectangle"
             android:layout_marginLeft="5dp"
             android:layout_marginRight="5dp"
             android:layout_height="wrap_content"

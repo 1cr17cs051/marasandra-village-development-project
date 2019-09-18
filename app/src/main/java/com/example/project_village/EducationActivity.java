@@ -72,20 +72,7 @@ public class EducationActivity extends AppCompatActivity {
         });
 
 
-      /*  exam.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
 
-                Intent intent=new Intent(EducationActivity.this,EducationInfoActivity.class);
-                String address=getString(R.string.time_address);
-                intent.putExtra("address",address);
-                String website=getString(R.string.time_website);
-                intent.putExtra("website",website);
-                String phone=getString(R.string.time_phone);
-                intent.putExtra("phone",phone);
-                startActivity(intent);
-            }
-        });*/
         epc.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -119,7 +106,7 @@ public class EducationActivity extends AppCompatActivity {
         pu.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                String[] schools = {"1" ,"2"};
+                String[] schools = {"Narayana PU college" ,"Garden city PU"};
 
                 AlertDialog.Builder builder = new AlertDialog.Builder(EducationActivity.this);
                 builder.setTitle("ಪ್ರಕಾರವನ್ನು ಆರಿಸಿ");
@@ -168,8 +155,8 @@ public class EducationActivity extends AppCompatActivity {
                             Intent intent=new Intent(EducationActivity.this,EducationInfoActivity.class);
                             String address=getString(R.string.bns_address);
                             intent.putExtra("address",address);
-                            String website=getString(R.string.bns_website);
-                            intent.putExtra("website",website);
+                            String no_website=getString(R.string.no_website);
+                            intent.putExtra("website",no_website);
                             String phone=getString(R.string.bns_phone);
                             intent.putExtra("phone",phone);
                             startActivity(intent);
@@ -178,8 +165,8 @@ public class EducationActivity extends AppCompatActivity {
                             Intent intent=new Intent(EducationActivity.this,EducationInfoActivity.class);
                             String address=getString(R.string.ghps_address);
                             intent.putExtra("address",address);
-                            String website=getString(R.string.ghps_website);
-                            intent.putExtra("website",website);
+                            String no_website=getString(R.string.no_website);
+                            intent.putExtra("website",no_website);
                             String phone=getString(R.string.ghps_phone);
                             intent.putExtra("phone",phone);
                             startActivity(intent);
@@ -207,8 +194,8 @@ public class EducationActivity extends AppCompatActivity {
                             Intent intent=new Intent(EducationActivity.this,EducationInfoActivity.class);
                             String address=getString(R.string.ghs_address);
                             intent.putExtra("address",address);
-                            String website=getString(R.string.ghs_website);
-                            intent.putExtra("website",website);
+                            String no_website=getString(R.string.no_website);
+                            intent.putExtra("website",no_website);
                             String phone=getString(R.string.ghs_phone);
                             intent.putExtra("phone",phone);
                             startActivity(intent);
@@ -217,8 +204,8 @@ public class EducationActivity extends AppCompatActivity {
                             Intent intent=new Intent(EducationActivity.this,EducationInfoActivity.class);
                             String address=getString(R.string.hses_address);
                             intent.putExtra("address",address);
-                            String website=getString(R.string.hses_website);
-                            intent.putExtra("website",website);
+                            String no_website=getString(R.string.no_website);
+                            intent.putExtra("website",no_website);
                             String phone=getString(R.string.hses_phone);
                             intent.putExtra("phone",phone);
                             startActivity(intent);

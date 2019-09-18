@@ -49,6 +49,17 @@ public class EastPointInfoActivity extends AppCompatActivity {
             }
         });
 
+
+        eastpointaddress.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent bint=new Intent(Intent.ACTION_VIEW, Uri.parse("https://maps.app.goo.gl/zsXzw6PR5k7YU5Mq5"));
+                startActivity(bint);
+            }
+        });
+
+
+
     }
 
 

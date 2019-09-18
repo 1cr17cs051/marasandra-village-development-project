@@ -1,7 +1,10 @@
 package com.example.project_village;
 
+import android.content.Intent;
+import android.net.Uri;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.view.View;
 import android.widget.TextView;
 
 public class VarthurGovernmentHospital extends AppCompatActivity {
@@ -25,6 +28,14 @@ public class VarthurGovernmentHospital extends AppCompatActivity {
         varthuraddress.setText(R.string.varthur_location);
         varthurinfotag.setText("ಮಾಹಿತಿ:");
         varthurinfo.setText(R.string.varthur_info);
+
+        varthuraddress.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent bint=new Intent(Intent.ACTION_VIEW, Uri.parse("https://maps.app.goo.gl/2v4t7mTiTrbeMYbFA"));
+                startActivity(bint);
+            }
+        });
 
 
     }

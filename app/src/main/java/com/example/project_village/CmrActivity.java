@@ -67,7 +67,7 @@ public class CmrActivity extends AppCompatActivity {
                         "ನವದೆಹಲಿಯ ಎ.ಐ.ಸಿ.ಟಿ.ಇ ಅನುಮೋದಿಸಿದೆ,\n" +
                         "ಮರುಮಾನ್ಯತೆ 'ಎ' ಗ್ರೇಡ್\n" +
                         "ಸ್ಥಿತಿ: 2009 ರಿಂದ ಸ್ವಾಯತ್ತತೆ");
-                intent.putExtra("website"," http://ims.cmr.ac.in/");
+                intent.putExtra("website","http://ims.cmr.ac.in/");
                 startActivity(intent);
             }
         });
@@ -89,7 +89,7 @@ public class CmrActivity extends AppCompatActivity {
             public void onClick(View v) {
                 Intent intent=new Intent(CmrActivity.this,CmrInfoActivity.class);
                 intent.putExtra("information","ಸಿಎಮ್ಆರ್ ಜ್ಞಾನಧರ ಟ್ರಸ್ಟ್ ಪ್ರಚಾರ ಮಾಡಿದೆ");
-                intent.putExtra("website"," http://www.cmr.ac.in/lifeskills/");
+                intent.putExtra("website","http://www.cmr.ac.in/lifeskills/");
                 startActivity(intent);
             }
         });
@@ -171,7 +171,7 @@ public class CmrActivity extends AppCompatActivity {
             public void onClick(View v) {
                 Intent intent=new Intent(CmrActivity.this,CmrInfoActivity.class);
                 intent.putExtra("information","ಕರ್ನಾಟಕ ಪೂರ್ವ ವಿಶ್ವವಿದ್ಯಾಲಯ ಶಿಕ್ಷಣ ಮಂಡಳಿಯಿಂದ ಅನುಮೋದಿಸಲಾಗಿದೆ");
-                intent.putExtra("website"," http://npuc.cmr.ac.in/");
+                intent.putExtra("website","http://npuc.cmr.ac.in/");
                 startActivity(intent);
             }
         });
@@ -206,7 +206,7 @@ public class CmrActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(Intent.ACTION_DIAL);
-                intent.setData(Uri.parse("tel:12345678"));
+                intent.setData(Uri.parse("tel:8025426977"));
                 startActivity(intent);
 
             }
